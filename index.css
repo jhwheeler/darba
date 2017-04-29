@@ -1,0 +1,101 @@
+/* General */
+
+* {
+  box-sizing: border-box;
+  font-family: Dagny;
+}
+
+@font-face {
+  font-family: Dagny;
+  src: url(DagnyOT-Thin.otf)
+}
+
+html, body, nav, ul, li, a, h1, h2, h3, h4, p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 400;
+}
+
+
+/* Header */
+
+nav {
+  background-color: rgba(255,255,255,0);
+  filter: alpha(opacity=50);
+  padding: 10px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  font-size: 30px;
+  color: #fff;
+}
+
+nav ul li a {
+  color: #fff;
+}
+
+nav ul li:first-child {
+  margin-right: auto;
+}
+
+.nav-link {
+  align-self: center;
+  line-height: 50px;
+  height: 50px;
+  margin: 0px 15px;
+}
+
+
+/* Top Banner */
+
+.banner {
+  height: 900px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./images/banner.jpg");
+  color: #fff;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.banner-content h1 {
+  width: 100%;
+}
+
+.banner-content button {
+  height: 60px;
+  width: 150px;
+  border: 3px solid white;
+  border-radius: 2px;
+  background-color: rgba(255,255,255,0);
+  margin: 20px;
+}
+
+.banner-content button a {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 300px;
+}
