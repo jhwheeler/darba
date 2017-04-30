@@ -240,3 +240,133 @@ nav ul li:first-child {
   width: 400px;
   margin-bottom: 20px;
 }
+
+
+/* Gallery */
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-header {
+  margin: 20px;
+}
+
+.gallery-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-image {
+  width: 33.33%;
+}
+
+
+/* Contact */
+
+.contact {
+  background-image: url(./images/contact.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-content {
+  height: 80%;
+  width: 80%;
+  background-color: rgba(71, 0, 106, 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.contact-header {
+  margin: 40px;
+}
+
+.contact-form-wrapper {
+  width: 54%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+fieldset {
+  border: 0;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 20px 0;
+}
+
+input, textarea {
+  background-color: rgba(255,255,255,0);
+  border: 2px solid white;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 10px;
+  width: 100%;
+}
+
+input {
+  height: 50px;
+  margin: 20px 0;
+}
+
+input::placeholder {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+  outline: none;
+}
+
+.contact-form button {
+  border-radius: 2px;
+  height: 50px;
+  width: 320px;
+  text-align: center;
+  background-color: rgba(255,255,255,0);
+  border: 2px solid white;
+  color: #fff;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: rgba(71, 0, 106, 0.7);
+  color: #fff;
+  border: none;
+}
+
+
+/* Utility Classes */
+.visually-hidden {
+  border: 0 !important;
+  clip: rect(0 0 0 0) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+}
