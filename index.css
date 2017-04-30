@@ -90,6 +90,7 @@ nav ul li:first-child {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("./images/banner.jpg");
+  background-attachment: fixed;
   color: #fff;
   display: flex;
   flex-flow: row wrap;
@@ -290,10 +291,6 @@ nav ul li:first-child {
 
 .contact-header {
   margin: 40px;
-}
-
-.contact-form-wrapper {
-  width: 54%;
 }
 
 .contact-form {
