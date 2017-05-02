@@ -2,12 +2,7 @@
 
 * {
   box-sizing: border-box;
-  font-family: Dagny;
-}
-
-@font-face {
-  font-family: Dagny;
-  src: url(DagnyOT-Thin.otf)
+  font-family: Raleway;
 }
 
 html, body, nav, ul, li, a, h1, h2, h3, h4, p {
@@ -21,11 +16,16 @@ html, body {
 
 a {
   text-decoration: none;
+  color: #0606a0;
+}
+
+a:visited {
+  color: #4f005b;
 }
 
 h1 {
-  font-size: 80px;
-  font-weight: 400;
+  font-size: 64px;
+  font-weight: 100;
 }
 
 h2 {
@@ -35,6 +35,7 @@ h2 {
 
 p {
   font-size: 22px;
+  font-weight: 200;
 }
 
 .content-header {
@@ -45,7 +46,7 @@ p {
 /* Header */
 
 nav {
-  background-color: rgba(255,255,255,0);
+  background-color: rgba(76, 15, 109, 0.6);
   filter: alpha(opacity=50);
   padding: 10px;
   width: 100%;
@@ -61,11 +62,15 @@ nav ul {
 }
 
 nav ul li {
-  font-size: 30px;
+  font-size: 24px;
   color: #fff;
 }
 
 nav ul li a {
+  color: #fff;
+}
+
+nav ul li a:visited {
   color: #fff;
 }
 
@@ -78,6 +83,10 @@ nav ul li:first-child {
   line-height: 50px;
   height: 50px;
   margin: 0px 15px;
+}
+
+.logo {
+  width: 150px;
 }
 
 
@@ -97,9 +106,11 @@ nav ul li:first-child {
   justify-content: center;
   align-items: center;
   text-align: center;
+  /*
   box-shadow: inset 0px -5px 5px 0px rgba(255,255,255,1);
   -webkit-box-shadow: inset 0px -5px 5px 0px rgba(255,255,255,1);
   -moz-box-shadow: inset 0px -5px 5px 0px rgba(255,255,255,1);
+  */
 }
 
 .banner-content h1 {
@@ -126,11 +137,15 @@ nav ul li:first-child {
 
 .manifesto-content {
   height: 400px;
-  padding: 40px;
+  padding: 240px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
+}
+
+.manifesto-content p {
+  margin: 0 0 0 132px
 }
 
 .manifesto-header {
@@ -141,27 +156,28 @@ nav ul li:first-child {
 /* About */
 
 .about-content {
-  height: 440px;
-  background-color: #4f005b;
+  height: 600px;
+  background-color: #351546;
   color: #fff;
   display: flex;
+  padding: 0 220px;
 }
 
 #about-image {
-  flex-basis: 600px;
   align-self: flex-end;
+  width: 600px;
 }
 
 .about-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-right: 20px;
+  margin: 20px 0 20px 20px;
 }
 
 .about-header {
   margin-top: 20px;
-  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 20px;
 }
 
@@ -173,19 +189,28 @@ nav ul li:first-child {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 40px;
+  padding: 260px;
+}
+
+.workshops-content p {
+  margin: 0 0 0 132px;
+}
+
+
+.workshops-header {
+  margin-right: auto;
 }
 
 
 /* Enneagram */
 
 .enneagram-content {
-  height: 400px;
-  background-color: #4f005b;
+  height: 600px;
+  background-color: #351546;
   color: #fff;
   display: flex;
   align-items: center;
-  padding: 60px;
+  padding: 270px;
 }
 
 .enneagram-content h2 {
@@ -193,8 +218,8 @@ nav ul li:first-child {
 }
 
 #enneagram-image {
-  height: 300px;
-  margin: 60px;
+  height: 350px;
+  margin-left: 80px;
 }
 
 
@@ -218,7 +243,7 @@ nav ul li:first-child {
 .flow-arts-text {
   display: flex;
   flex-direction: column;
-  padding: 40px;
+  padding: 100px;
 }
 
 
@@ -253,7 +278,7 @@ nav ul li:first-child {
 }
 
 .gallery-header {
-  margin: 20px;
+  margin: 40px 20px;
 }
 
 .gallery-content {
@@ -264,6 +289,11 @@ nav ul li:first-child {
 
 .gallery-image {
   width: 33.33%;
+}
+
+.gallery-image img {
+  width: 100%;
+  height: 100%;
 }
 
 
@@ -300,13 +330,16 @@ nav ul li:first-child {
   align-items: center;
 }
 
-fieldset {
-  border: 0;
-  text-align: center;
+.contact-info {
   display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  padding: 20px 0;
+}
+
+#name {
+  margin-right: 10px;
+}
+
+#email {
+  margin-left: 10px;
 }
 
 input, textarea {
@@ -325,14 +358,14 @@ input {
   margin: 20px 0;
 }
 
-input::placeholder {
+input::placeholder, textarea::placeholder {
   color: #fff;
   font-size: 20px;
   font-weight: 400;
 }
 
 textarea {
-  height: 100px;
+  height: 140px;
   resize: none;
   outline: none;
 }
@@ -340,12 +373,12 @@ textarea {
 .contact-form button {
   border-radius: 2px;
   height: 50px;
-  width: 320px;
+  width: 100%;
   text-align: center;
   background-color: rgba(255,255,255,0);
   border: 2px solid white;
   color: #fff;
-  font-size: 1.5em;
+  font-size: 1.3em;
   cursor: pointer;
 }
 
@@ -353,6 +386,65 @@ textarea {
   background-color: rgba(71, 0, 106, 0.7);
   color: #fff;
   border: none;
+}
+
+footer {
+    text-align: center;
+    bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    height: 60px;
+    width: 100%;
+    color: #fff;
+    background-color: #4c0f6d;
+}
+
+footer span a:visited {
+  color: #fff;
+}
+
+
+/* Mobile Responsive CSS */
+
+@media only screen and (max-width: 1360px) and (min-width: 980px) {
+  .content-section {
+    padding: 20px;
+  }
+
+  .about-content {
+    height: auto;
+  }
+
+  .flow-arts-content {
+    padding-bottom: 44px;
+  }
+
+  .flow-arts-text {
+    padding: 20px
+  }
+
+  .flow-arts-text h2 {
+    margin: 20px;
+  }
+
+  .fire {
+    padding: 0;
+  }
+
+  .fire-workshop-image {
+    width: 100%;
+  }
+
+  .fire-workshop p {
+    padding: 20px;
+  }
+
+}
+
+
+@media only screen and (max-width: 979px) and (min-width: 660px) {
+
 }
 
 
