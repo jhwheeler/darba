@@ -407,6 +407,10 @@ footer span a:visited {
 
 /* Mobile Responsive CSS */
 
+.mobile {
+  display: none;
+}
+
 @media only screen and (max-width: 1360px) and (min-width: 980px) {
   .content-section {
     padding: 20px;
@@ -443,10 +447,170 @@ footer span a:visited {
 }
 
 
-@media only screen and (max-width: 979px) and (min-width: 660px) {
+@media only screen and (max-width: 979px) {
+
+  .manifesto-content {
+    padding: 20px;
+  }
+
+  .manifesto-content p {
+    margin: 0 0 0 100px
+  }
+
+  .about-content {
+    height: 720px;
+    padding: 0 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #about-image {
+    align-self: flex-start;
+    justify-content: center;
+    width: 350px;
+  }
+
+  .about-text {
+    margin: 0;
+  }
+
+  .workshops-content {
+    padding: 30px;
+  }
+
+  .enneagram-content {
+    height: 880px;
+    padding: 40px;
+  }
+
+  #enneagram-image {
+    margin-left: 40px
+  }
+
+  .flow-arts-content {
+    height: 760px;
+    flex-wrap: wrap;
+  }
+
+  #flow-arts-image {
+    height: auto;
+    width: 100%;
+  }
+
+  .flow-arts-text {
+    padding: 20px;
+  }
+
+  .fire {
+    flex-wrap: wrap;
+  }
+
+  .fire-workshop {
+    padding: 20px 0;
+  }
+
+  .gallery-content {
+    padding-bottom: 40px;
+  }
+
+  .gallery-image {
+    width: auto;
+  }
 
 }
 
+@media only screen and (max-width: 759px) {
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .banner{
+    height: 670px;
+  }
+
+  .banner-content button {
+    background-color: rgba(76, 15, 109, 0.6);
+    border: none;
+  }
+
+  .content-header {
+    height: 110px;
+  }
+
+  .manifesto-content {
+    height: 600px;
+  }
+
+  .manifesto-content p {
+    margin: 0 0 0 28px
+  }
+
+  .about-content {
+    height: 1100px;
+    padding: 20px 18px;
+  }
+
+  .about-header {
+    margin: 0 auto 20px 0;
+  }
+
+  .workshops-content {
+    padding: 8px;
+    height: 560px;
+  }
+
+  .workshops-content p {
+    margin-left: 28px;
+  }
+
+  .enneagram-content {
+    height: 1380px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .enneagram-text {
+    order: 2;
+  }
+
+  #enneagram-image {
+    margin-left: 0;
+    height: 308px;
+  }
+
+  #flow-arts-image {
+    margin-top: -22px;
+  }
+
+  .flow-arts-text {
+    padding: 20px;
+  }
+
+  .fire-workshop-image {
+    width: 100%;
+  }
+
+  .gallery-header {
+    margin: 0 0 20px;
+  }
+
+  .contact-content {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .contact-header {
+    height: 90px;
+  }
+
+}
 
 /* Utility Classes */
 .visually-hidden {
