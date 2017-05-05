@@ -465,16 +465,16 @@ footer span a:visited {
   }
 
   .about-content {
-    height: 720px;
+    height: 960px;
     padding: 0 60px;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
   }
 
   #about-image {
-    align-self: flex-start;
     justify-content: center;
-    width: 350px;
+    width: 100%;
   }
 
   .about-text {
@@ -521,7 +521,7 @@ footer span a:visited {
   }
 
   .gallery-image {
-    width: auto;
+    width: 100%;
   }
 
 }
@@ -546,7 +546,7 @@ footer span a:visited {
   }
 
   .content-header {
-    height: 110px;
+    height: 90px;
   }
 
   .manifesto-content {
@@ -558,7 +558,7 @@ footer span a:visited {
   }
 
   .about-content {
-    height: 1100px;
+    height: 950px;
     padding: 20px 18px;
   }
 
