@@ -126,6 +126,12 @@ nav ul li:first-child {
   margin: 20px;
 }
 
+.banner-content button:hover {
+  background-color: rgba(71, 0, 106, 0.7);
+  border: none;
+  transition: all .3s
+}
+
 .banner-content button a {
   color: #fff;
   font-size: 30px;
@@ -384,6 +390,7 @@ textarea {
 
 .contact-form button:hover {
   background-color: rgba(71, 0, 106, 0.7);
+  transition: all .3s
   color: #fff;
   border: none;
 }
