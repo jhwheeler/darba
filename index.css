@@ -33,6 +33,11 @@ h2 {
   font-weight: 400;
 }
 
+h3 {
+  font-size: 36px;
+  font-weight: 200;
+}
+
 p {
   font-size: 22px;
   font-weight: 200;
@@ -429,11 +434,13 @@ footer span a:visited {
   color: #fff;
   display: flex;
   align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
 .thank-you-text {
-  background-color: rgba(76, 15, 109, 0.45)
+  background-color: rgba(76, 15, 109, 0.45);
+  padding: 20px;
 }
 
 
