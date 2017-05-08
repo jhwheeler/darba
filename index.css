@@ -405,10 +405,35 @@ footer {
     width: 100%;
     color: #fff;
     background-color: #4c0f6d;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 footer span a:visited {
   color: #fff;
+}
+
+
+/* Thank You Page */
+
+.thank-you {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./images/contact.jpg);
+  background-attachment: fixed;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.thank-you-text {
+  background-color: rgba(76, 15, 109, 0.45)
 }
 
 
