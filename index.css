@@ -130,12 +130,13 @@ nav ul li:first-child {
   border-radius: 2px;
   background-color: rgba(255,255,255,0);
   margin: 20px;
+  cursor: pointer;
 }
 
 .banner-content button:hover {
-  background-color: rgba(71, 0, 106, 0.7);
+  background-color: rgba(241, 142, 30, 0.8);
   border: none;
-  transition: all .3s
+  transition: all .1s;
 }
 
 .banner-content button a {
@@ -395,10 +396,9 @@ textarea {
 }
 
 .contact-form button:hover {
-  background-color: rgba(71, 0, 106, 0.7);
-  transition: all .3s
-  color: #fff;
+  background-color: rgba(241, 142, 30, 0.8);
   border: none;
+  transition: all .1s;
 }
 
 footer {
