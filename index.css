@@ -144,7 +144,7 @@ nav ul li:first-child {
   transition: all .1s;
 }
 
-.banner-content button a {
+.banner-content a button {
   color: #fff;
   font-size: 30px;
   font-weight: 300px;
