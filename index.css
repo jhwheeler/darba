@@ -426,6 +426,10 @@ footer span a:visited {
   color: #fff;
 }
 
+footer span a:hover {
+  color: #f18e1e;
+}
+
 
 /* Thank You Page */
 
