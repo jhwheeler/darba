@@ -16,11 +16,7 @@ html, body {
 
 a {
   text-decoration: none;
-  color: #0606a0;
-}
-
-a:visited {
-  color: #4f005b;
+  color: #f18e1e;
 }
 
 h1 {
@@ -41,6 +37,7 @@ h3 {
 p {
   font-size: 22px;
   font-weight: 200;
+  max-width: 1000px;
 }
 
 .content-header {
@@ -88,6 +85,10 @@ nav ul li:first-child {
   line-height: 50px;
   height: 50px;
   margin: 0px 15px;
+}
+
+.nav-link a:hover {
+  color: #f18e1e;
 }
 
 .logo {
@@ -452,7 +453,7 @@ footer span a:visited {
 
 @media only screen and (max-width: 1360px) and (min-width: 980px) {
   .content-section {
-    padding: 20px;
+    padding: 80px;
   }
 
   .about-content {
