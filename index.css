@@ -5,12 +5,23 @@
   font-family: Raleway;
 }
 
-html, body, nav, ul, li, a, h1, h2, h3, h4, p {
+html,
+body,
+nav,
+ul,
+li,
+a,
+h1,
+h2,
+h3,
+h4,
+p {
   margin: 0;
   padding: 0;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -48,7 +59,6 @@ p {
 .content-header {
   height: 150px;
 }
-
 
 /* Header */
 
@@ -100,7 +110,6 @@ nav ul li:first-child {
   width: 150px;
 }
 
-
 /* Top Banner */
 
 .banner {
@@ -133,7 +142,7 @@ nav ul li:first-child {
   width: 150px;
   border: 3px solid white;
   border-radius: 2px;
-  background-color: rgba(255,255,255,0);
+  background-color: rgba(255, 255, 255, 0);
   margin: 20px;
   cursor: pointer;
 }
@@ -141,7 +150,7 @@ nav ul li:first-child {
 .banner-content button:hover {
   background-color: rgba(241, 142, 30, 0.8);
   border: none;
-  transition: all .1s;
+  transition: all 0.1s;
 }
 
 .banner-content a button {
@@ -149,7 +158,6 @@ nav ul li:first-child {
   font-size: 30px;
   font-weight: 300px;
 }
-
 
 /* Manifesto */
 
@@ -163,13 +171,12 @@ nav ul li:first-child {
 }
 
 .manifesto-content p {
-  margin: 0 0 0 132px
+  margin: 0 0 0 132px;
 }
 
 .manifesto-header {
   align-self: flex-start;
 }
-
 
 /* About */
 
@@ -214,11 +221,9 @@ nav ul li:first-child {
   margin: 0 0 0 132px;
 }
 
-
 .workshops-header {
   margin-right: auto;
 }
-
 
 /* Enneagram */
 
@@ -239,7 +244,6 @@ nav ul li:first-child {
   height: 350px;
   margin-left: 80px;
 }
-
 
 /* Flow Arts */
 
@@ -264,7 +268,6 @@ nav ul li:first-child {
   padding: 100px;
 }
 
-
 /* Fire Flow Workshops */
 
 .fire {
@@ -284,7 +287,6 @@ nav ul li:first-child {
   width: 400px;
   margin-bottom: 20px;
 }
-
 
 /* Gallery */
 
@@ -314,7 +316,6 @@ nav ul li:first-child {
   height: 100%;
 }
 
-
 /* Contact */
 
 .contact {
@@ -328,8 +329,8 @@ nav ul li:first-child {
 }
 
 .contact-content {
-  height: 80%;
-  width: 80%;
+  height: 60%;
+  width: 60%;
   background-color: rgba(71, 0, 106, 0.7);
   display: flex;
   flex-direction: column;
@@ -339,6 +340,10 @@ nav ul li:first-child {
 
 .contact-header {
   margin: 40px;
+}
+
+.contact-content p {
+  color: #fff;
 }
 
 .contact-form {
@@ -360,8 +365,9 @@ nav ul li:first-child {
   margin-left: 10px;
 }
 
-input, textarea {
-  background-color: rgba(255,255,255,0);
+input,
+textarea {
+  background-color: rgba(255, 255, 255, 0);
   border: 2px solid white;
   border-radius: 2px;
   color: #fff;
@@ -376,7 +382,8 @@ input {
   margin: 20px 0;
 }
 
-input::placeholder, textarea::placeholder {
+input::placeholder,
+textarea::placeholder {
   color: #fff;
   font-size: 20px;
   font-weight: 400;
@@ -393,7 +400,7 @@ textarea {
   height: 50px;
   width: 100%;
   text-align: center;
-  background-color: rgba(255,255,255,0);
+  background-color: rgba(255, 255, 255, 0);
   border: 2px solid white;
   color: #fff;
   font-size: 1.3em;
@@ -403,23 +410,23 @@ textarea {
 .contact-form button:hover {
   background-color: rgba(241, 142, 30, 0.8);
   border: none;
-  transition: all .1s;
+  transition: all 0.1s;
 }
 
 footer {
-    text-align: center;
-    bottom: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin: 0 auto;
-    height: 60px;
-    width: 100%;
-    color: #fff;
-    background-color: #4c0f6d;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  text-align: center;
+  bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  height: 60px;
+  width: 100%;
+  color: #fff;
+  background-color: #4c0f6d;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 footer span a:visited {
@@ -429,7 +436,6 @@ footer span a:visited {
 footer span a:hover {
   color: #f18e1e;
 }
-
 
 /* Thank You Page */
 
@@ -453,7 +459,6 @@ footer span a:hover {
   padding: 20px;
 }
 
-
 /* Mobile Responsive CSS */
 
 .mobile {
@@ -474,7 +479,7 @@ footer span a:hover {
   }
 
   .flow-arts-text {
-    padding: 20px
+    padding: 20px;
   }
 
   .flow-arts-text h2 {
@@ -492,18 +497,15 @@ footer span a:hover {
   .fire-workshop p {
     padding: 20px;
   }
-
 }
 
-
 @media only screen and (max-width: 979px) {
-
   .manifesto-content {
     padding: 20px;
   }
 
   .manifesto-content p {
-    margin: 0 0 0 100px
+    margin: 0 0 0 100px;
   }
 
   .about-content {
@@ -533,7 +535,7 @@ footer span a:hover {
   }
 
   #enneagram-image {
-    margin-left: 40px
+    margin-left: 40px;
   }
 
   .flow-arts-content {
@@ -565,11 +567,9 @@ footer span a:hover {
   .gallery-image {
     width: 100%;
   }
-
 }
 
 @media only screen and (max-width: 759px) {
-
   .desktop {
     display: none;
   }
@@ -578,7 +578,7 @@ footer span a:hover {
     display: block;
   }
 
-  .banner{
+  .banner {
     height: 670px;
   }
 
@@ -596,7 +596,7 @@ footer span a:hover {
   }
 
   .manifesto-content p {
-    margin: 0 0 0 28px
+    margin: 0 0 0 28px;
   }
 
   .about-content {
@@ -658,7 +658,6 @@ footer span a:hover {
   .contact-header {
     height: 90px;
   }
-
 }
 
 /* Utility Classes */
